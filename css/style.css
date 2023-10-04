@@ -1,11 +1,12 @@
 body {
     font-family: Roboto, sans-serif;
     background-color:#FFC561;
-    color:#3270B3;
+    color:#6798cd;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Skranji', cursive;
+    text-align:center;
 }
 h1 {
     font-size:30pt;
@@ -17,9 +18,26 @@ h2 {
 header {
     text-align:center;
 }
-#hero {
+#hero, footer {
     text-align:center;
+    border:2px solid #3270B3;
+    background-color:#9e6a11;
 }
 #hero img {
     width:300px;
+}
+
+#bio {
+    text-align:center;
+}
+
+
+#hobbies ul {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#hobbies ul li:nth-child(even) {
+    color:black;
 }
